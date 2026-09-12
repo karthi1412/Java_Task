@@ -1,0 +1,67 @@
+Java Notes
+
+ jvm - java virtual machine - java code executes
+
+
+ JRE - jvm + libraries to run the program
+
+
+ JDK - jre  
+
+
+Data types
+Primitive data types - includes byte, short, int, long, float, double, boolean and char
+Non-primitive data types - such as String, Arrays and Classes
+
+public static void main 
+public - access anywhere
+static - object
+void -  does not return any value
+main - runs first
+
+if else
+
+Arrays
+
+for loop
+
+reverse Arrays
+reverse two pointer Arrays
+
+while
+
+Collections
+List - add, get, set, contains, size, indexof, isEmpty, clear, remove, tostring
+LinkedHashSet
+Treeset
+
+set - add remove addall removeall equals retainall clear
+
+Interface	Common Classes	Description
+List -	ArrayList, LinkedList	Ordered collection that allows duplicates
+Set	- HashSet, TreeSet, LinkedHashSet	Collection of unique elements
+Map -	HashMap, TreeMap, LinkedHashMap	Stores key-value pairs with unique keys
+
+A method is a block of code which only runs when it is called.
+You can pass data, known as parameters, into a method.
+Methods are used to perform certain actions, and they are also known as functions.
+Why use methods? To reuse code: define the code once, and use it many times.
+Parameters and multiple parameters can declared in parenthesis
+return keyword for return values
+With method overloading, multiple methods can have the same name with different parameters
+Method scope, Block scope and loop scope.
+Recursion is the technique of making a function call itself.
+
+stack - stack.push stack.peek stack.poll stack.search
+Queue - queue.offer queue.peek queue.poll queue.size queue.contains queue.clear queue.empty
+PriorityQueue - add peek poll collections.reverseorder for descending
+
+object details and object creation
+generate getters and setters 
+generate to string
+generate constructor using fields 
+default object create
+constructors have this and super keyword
+parameterized function and unparameter
+
+
