@@ -63,3 +63,10 @@ generate constructor using fields
 default object create
 constructors have this and super keyword
 parameterized function and unparameter
+
+Data abstraction is the process of hiding certain details and showing only essential information to the user.
+Abstract having both 
+abstract method - public abstract void methodname(){}
+and
+non abstract method(Regular Method) -  public void sleep(){}
+it having keyword abstract and extends
