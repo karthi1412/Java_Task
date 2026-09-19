@@ -11,4 +11,8 @@ public class ContractEmployee extends Employee{
 		return 40000;
 	}
 
+	public void login() {
+		
+	}
+
 }

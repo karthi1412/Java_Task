@@ -70,3 +70,18 @@ abstract method - public abstract void methodname(){}
 and
 non abstract method(Regular Method) -  public void sleep(){}
 it having keyword abstract and extends
+
+abstractmain , employee, contract ,permanent
+
+interface hiding details and logics.
+create interface method using keyword interface and implement in children 
+default method and static method
+implement having many many children 
+extends 
+files - payment creditcard upi sampleinterface sampleinterfacetwo interfacemainclass
+
+inheritance
+single and hierarchy inheritance
+having extends keyword
+one common parent class and passing through children class
+inheritanceexample

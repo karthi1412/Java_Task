@@ -8,7 +8,11 @@ public class PermentEmployee extends Employee {
 
 	@Override
 	double calculateSalary() {
-		return 5000;
+		return 50000;
+	}
+
+	public void login() {
+		
 	}
 	
 
