@@ -7,6 +7,7 @@ import java.util.List;
 import java.util.Optional;
 import java.util.Set;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class StreamsOperation {
 
@@ -15,7 +16,7 @@ public class StreamsOperation {
 		
 		Set<Integer> result = new HashSet<Integer>();
 		for(int i: numbers) {
-			result.add(i);
+			result.add(i); 
 		}
 
 		numbers.stream().distinct().forEach(System.out::println);
@@ -71,30 +72,47 @@ public class StreamsOperation {
 		boolean resultB = numbers.stream().noneMatch(n -> n < 0);
 		System.out.println(resultB);
 		
+		
+//		Stream Method
 		int sum = numbers.stream().reduce(0, (a,b) -> a+b);
 		System.out.println(sum);
-		int total = 0;
 		
+//		Normal for method
+		int total = 0;
 		for(Integer i: numbers) {
 			total += i;
 		}
-		
 		System.out.println(total);
+		
 		
 		List<String> names = Arrays.asList("John", "David", "Alex");
 		
 		String resultS = names.stream().collect(Collectors.joining(", "));
 		System.out.println(resultS);
 				
+	
+		
+		//Multiple Stream 
+		System.out.println("Multiple Stream");
+		
+		List<Integer> newlist = Arrays.asList(5,10,15,20,25,30,35,40);
+		List<Integer> counter = newlist.stream().filter(n -> n > 20).collect(Collectors.toList());
+		System.out.println(counter);
+		
+		int sumvalue = counter.stream().reduce(0, (x,y) -> x + y);
+		System.out.println(sumvalue);
+		
+		Optional<Integer> maxnum = counter.stream().max(Integer :: compareTo);
+		System.out.println(maxnum.get());
+		
+		long res =  counter.stream().count();
+		System.out.println(res);
+		
+		boolean findnums = counter.stream().anyMatch(n -> n > 30);
+		System.out.println(findnums);
 		
 		
-		
-		
-		
-		
-		
-		
-		
+			
 		
 		
 	}

@@ -40,7 +40,7 @@ set - add remove addall removeall equals retainall clear
 Interface	Common Classes	Description
 List -	ArrayList, LinkedList	Ordered collection that allows duplicates
 Set	- HashSet, TreeSet, LinkedHashSet	Collection of unique elements
-Map -	HashMap, TreeMap, LinkedHashMap	Stores key-value pairs with unique keys
+Map - HashMap, TreeMap, LinkedHashMap	Stores key-value pairs with unique keys
 
 A method is a block of code which only runs when it is called.
 You can pass data, known as parameters, into a method.
@@ -87,3 +87,11 @@ one common parent class and passing through children class
 inheritanceexample
 
 objectFilter Example and employee Database.
+
+Comparator having three methods override method,   
+
+Streams - Source -> Intermediate operation -> Terminal operation -> Short Circuiting
+Source - object and list creation
+intermediate operation - filter(), Map(), peek(), boxed();
+Terminal operation - collect(), Reduce(), Max(), Min();
+Short Circuiting - Limit(), findFirst(), findAny();
