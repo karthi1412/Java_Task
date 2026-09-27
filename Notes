@@ -100,3 +100,5 @@ Optional
 Solutions for null exists , declaring optional with data types and also adding option as empty()
 methods are optional.of(), isPresent(), ifPresentOrElse(), orElse(), IntStream.of()
 Check database values if exists or null , to avoid code bug or null pointer exception error.
+
+
