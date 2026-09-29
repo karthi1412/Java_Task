@@ -1,6 +1,5 @@
 package Comparator;
 
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -50,7 +49,9 @@ public class ComparablePrac {
 		
 		System.out.println("Data by forEach"+ filteredN);	
 		
-				
+	
+
+			
 	}
 	
 

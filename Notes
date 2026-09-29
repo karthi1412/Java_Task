@@ -101,4 +101,7 @@ Solutions for null exists , declaring optional with data types and also adding o
 methods are optional.of(), isPresent(), ifPresentOrElse(), orElse(), IntStream.of()
 Check database values if exists or null , to avoid code bug or null pointer exception error.
 
+Comparable
 
+method overloading - same method name with different arguments or parameters
+method overriding - over ride the business logic -> default override logic return 0 -> we can override logic
