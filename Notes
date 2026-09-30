@@ -13,11 +13,15 @@ Data types
 Primitive data types - includes byte, short, int, long, float, double, boolean and char
 Non-primitive data types - such as String, Arrays and Classes
 
-public static void main 
-public - access anywhere
-static - object
-void -  does not return any value
-main - runs first
+public static void main(String[] args) {
+    System.out.println("Hello!");
+}
+
+public → The method can be accessed from anywhere. The JVM needs to be able to call it.
+static → The method belongs to the class, so Java can run it without creating an object.
+void → The method does not return any value.
+main → The special method name Java looks for as the program's entry point.
+String[] args → An array that stores command-line arguments passed to the program.
 
 if else
 
@@ -31,7 +35,10 @@ reverse two pointer Arrays
 while
 
 Collections
-List - add, get, set, contains, size, indexof, isEmpty, clear, remove, tostring
+ArrayList - add, get, set, contains, size, indexof, isEmpty, clear, remove, tostring
+LinkedList - addFirst()	addLast() removeFirst() removeLast() getFirst()	getLast()
+List Sorting - Collections.sort Collections.sort(cars, Collections.reverseOrder())
+
 LinkedHashSet
 Treeset
 
@@ -41,6 +48,8 @@ Interface	Common Classes	Description
 List -	ArrayList, LinkedList	Ordered collection that allows duplicates
 Set	- HashSet, TreeSet, LinkedHashSet	Collection of unique elements
 Map - HashMap, TreeMap, LinkedHashMap	Stores key-value pairs with unique keys
+
+
 
 A method is a block of code which only runs when it is called.
 You can pass data, known as parameters, into a method.
@@ -62,7 +71,20 @@ generate to string
 generate constructor using fields 
 default object create
 constructors have this and super keyword
-parameterized function and unparameter
+parameterized function and unparameterized function
+EmployeeDetails, object Creation, Product Info, Product Details, Product Creation, Specification, 
+
+Java Constructors
+A constructor in Java is a special method that is used to initialize objects.
+The constructor is called when an object of a class is created.
+It can be used to set initial values for object attributes
+
+The this keyword in Java refers to the current object in a method or constructor.
+
+In Java, the super keyword is used to refer to the parent class of a subclass.
+To access attributes and methods from the parent class
+To call the parent class constructor
+
 
 Data abstraction is the process of hiding certain details and showing only essential information to the user.
 Abstract having both 
@@ -71,7 +93,7 @@ and
 non abstract method(Regular Method) -  public void sleep(){}
 it having keyword abstract and extends
 
-abstractmain , employee, contract ,permanent
+abstractmain , employee, contract ,permanent ,Abstract Main.
 
 interface hiding details and logics.
 create interface method using keyword interface and implement in children 
@@ -82,8 +104,10 @@ files - payment creditcard upi sampleinterface sampleinterfacetwo interfacemainc
 
 inheritance
 single and hierarchy inheritance
-having extends keyword
-one common parent class and passing through children class
+inherit attributes and methods from one class to another. We group the "inheritance concept" into two categories.
+subclass (child) - the class that inherits from another class
+superclass (parent) - the class being inherited from
+To inherit from a class, use the extends keyword.
 inheritanceexample
 
 objectFilter Example and employee Database.
@@ -94,7 +118,7 @@ Streams - Source -> Intermediate operation -> Terminal operation -> Short Circui
 Source - object and list creation
 intermediate operation - filter(), Map(), peek(), boxed();
 Terminal operation - collect(), Reduce(), Max(), Min();
-Short Circuiting - Limit(), findFirst(), findAny();
+Short Circuiting - Limit(), findFirst(), findAny() anymatch() allmatch() nonematch();
 
 Optional 
 Solutions for null exists , declaring optional with data types and also adding option as empty()
@@ -105,3 +129,20 @@ Comparable
 
 method overloading - same method name with different arguments or parameters
 method overriding - over ride the business logic -> default override logic return 0 -> we can override logic
+
+Polymorphism - method overload and method override
+
+Encapsulation - is to make sure that "sensitive" data is hidden from users. To achieve this, you must:
+declare class variables/attributes as private
+provide public get and set methods to access and update the value of a private variable.
+
+
+Exception Handling - try catch finally
+try -  operation.
+catch - Arithmetic , indexbound and common as exception e - e.printstacktrace
+finally - save and further purpose.
+Exception Throw - throw new illegalargumentexception
+Custom Exception - creating own exception -  e.getmessage
+exception progation - method 3 method 2 methood 1 main - steps to follow
+
+MultiThreading - process of seperating task from actual operation and runs parallel - commonly used in industry based product application.
