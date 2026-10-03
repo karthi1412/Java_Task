@@ -146,4 +146,3 @@ Custom Exception - creating own exception -  e.getmessage
 exception progation - method 3 method 2 methood 1 main - steps to follow
 
 MultiThreading - process of seperating task from actual operation and runs parallel - commonly used in industry based product application.
-
