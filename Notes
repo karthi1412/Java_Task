@@ -146,3 +146,12 @@ Custom Exception - creating own exception -  e.getmessage
 exception progation - method 3 method 2 methood 1 main - steps to follow
 
 MultiThreading - process of seperating task from actual operation and runs parallel - commonly used in industry based product application.
+complex works simultaneously 
+runnable keyword and it follows override run()
+Thread thread, String thread_name, 
+try - thread.sleep(3000)
+catch - interruptedException e 
+Option having Creating Multiple thread
+
+Mysql connector/j
+
