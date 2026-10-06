@@ -8,7 +8,6 @@ Java Notes
 
  JDK - jre  
 
-
 Data types
 Primitive data types - includes byte, short, int, long, float, double, boolean and char
 Non-primitive data types - such as String, Arrays and Classes
@@ -154,4 +153,8 @@ catch - interruptedException e
 Option having Creating Multiple thread
 
 Mysql connector/j
+
+
+
+
 
