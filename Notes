@@ -1,7 +1,5 @@
 Java Notes
 
-
-
  jvm - java virtual machine - java code executes
 
 
@@ -155,5 +153,3 @@ catch - interruptedException e
 Option having Creating Multiple thread
 
 Mysql connector/j
-
-
